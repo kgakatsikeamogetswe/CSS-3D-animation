@@ -3,19 +3,27 @@
         <title>2D Animation</title>
         <style>
             div{
-                height: 200px;
+                height: 100px;
                 width: 600px;
                 background-color: chocolate;
                 border: 5px solid black;
             }
 
             #mydiv{
-                transform: rotate(20deg);
+                transform: skewX(-20deg);
                 background-color: darkgoldenrod;
+            }
+            #mydivs{
+                transform: rotate(20deg);
+                background-color: yellowgreen;
             }
             
             #div{
                 transform: rotate(-20deg);
+                background-color: aqua;
+            }
+            #urdiv{
+                transform: skewY(20deg);
                 background-color: aqua;
             }
 
@@ -25,6 +33,8 @@
     <body>
         <div>box 1</div>
         <div id="mydiv">Box 2</div>
-        <div id="div">box 3</div>
+        <div id="mydivs">Box 3</div>
+        <div id="div">box 4</div>
+        <div id="urdiv">Box 5</div>
     </body>
 </html>
