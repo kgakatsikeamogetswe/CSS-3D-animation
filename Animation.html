@@ -8,6 +8,7 @@
                     background-color: aqua;
                     animation-name: Anime1;
                     animation-duration: 4s;
+                    position: relative;
                 }
             
             @keyframes Anime1 {
@@ -15,11 +16,11 @@
                 /* from {background-color: aqua;}
                 to {background-color: blue;} */
 
-                0% {background-color: aqua;}
-                25% {background-color: blue;}
-                50% {background-color: grey;}
-                75% {background-color: goldenrod;}
-                100% {background-color: salmon;}
+                0% {background-color: aqua; left: 0px; top: 0px;}
+                25% {background-color: blue; left: 200px; top: 0px;}
+                50% {background-color: grey; left: 0px; top: 200px;}
+                75% {background-color: goldenrod; left: 200px; top: 0px;}
+                100% {background-color: salmon; left:200px; top:200px}
             }
         </style>
     </head>
